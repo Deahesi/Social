@@ -1,0 +1,45 @@
+{
+  "name": "social",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "firebase": "^7.23.0",
+    "register-service-worker": "^1.7.1",
+    "vue-router": "^3.2.0",
+    "vue-scrollto": "^2.20.0",
+    "vuex": "^3.4.0"
+  },
+  "resolutions": {
+    "eslint-loader": "4.0.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-pwa": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "bootstrap": "^4.5.3",
+    "bootstrap-vue": "^2.18.1",
+    "eslint": "^6.8.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20",
+    "node-sass": "^4.12.0",
+    "pidcrypt": "0.0.31",
+    "sass-loader": "^8.0.2",
+    "vue": "^2.6.12",
+    "vue-meta": "^2.4.0",
+    "vue-scroll": "^2.1.13",
+    "vue-template-compiler": "^2.6.11",
+    "vuelidate": "^0.7.6"
+  }
+}
