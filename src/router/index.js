@@ -6,9 +6,9 @@ Vue.use(VueRouter)
 
 const routes = [
     {
-        path: '/',
+        path: '*',
         name: 'None',
-        meta: {},
+        meta: {auth: true},
     },
     {
         path: '/register',
